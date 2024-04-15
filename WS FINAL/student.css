@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #0F0529, #602786, #0F0529);
+}
+
+h1 {
+    text-align: center;
+    color: #0F0529;
+    text-shadow: 5px 0 4px #602786;
+    font-size: 40px;
+}
+
+span{
+    color: #602786;
+    text-shadow: 5px 0 4px #0F0529;
+    cursor: pointer;
+}
+
+span:hover{
+    color: #0F0529;
+    text-shadow: 5px 0 4px #602786;
+    background: #602786;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px #0F0529;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #0F0529;
+    text-shadow: 5px 0 4px #602786;
+}
+
+.form-container {
+    max-width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #0F0529;
+    border-radius: 5px;
+}
+.form-container:hover{
+    box-shadow: 0 0 55px #602786;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.input-form {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #602786;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    text-shadow: 1px 0 2px #ccc;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #0F0529;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border-color: #ccc;
+    background: #0F0529;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: #602786;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #0F0529;
+    border: 2px solid #602786;
+}
+
+h3 {
+    text-align:center;
+    color: #602786;
+    text-shadow: 5px 0 4px #0F0529;
+    font-size: 30px;
+    text-shadow: 1px 0 2px #fff;
+}
